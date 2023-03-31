@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondActivity">
+
+    <TextView
+    android:id="@+id/total"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="total Questions"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="9dp"
+    android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="answer for question"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ansA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9B9D9D"
+            android:text="ansA"
+            android:textColor="@color/black"
+            android:layout_marginTop="230dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="19dp"
+            />
+        <Button
+            android:id="@+id/ansB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ansB"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:background="#9B9D9D"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="19dp"
+            />
+        <Button
+            android:id="@+id/ansC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ansC"
+            android:layout_marginTop="10dp"
+            android:background="#9B9D9D"
+            android:textColor="@color/black"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="19dp"/>
+        <Button
+            android:id="@+id/ansD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ansD"
+            android:layout_marginTop="10dp"
+            android:background="#9B9D9D"
+            android:textColor="@color/black"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="19dp"/>
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#29BCCA"
+        android:text="submit"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+</RelativeLayout>
+

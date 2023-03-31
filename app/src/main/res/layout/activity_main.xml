@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    android:textAlignment="viewStart"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Quiz"
+        android:textColor="#B13D43"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="361dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/white"
+        android:text="Choose Language"
+        android:textSize="26dp" />
+
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#12D9EC"
+        android:text="Java"
+        android:textColor="#FFF"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/c_lan"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#9443C5"
+        android:text="C"
+        android:textColor="#FFF"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/python"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#D84585"
+        android:text="Python"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
